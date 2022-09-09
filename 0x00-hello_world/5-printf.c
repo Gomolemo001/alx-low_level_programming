@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
 * main - print the tring in the put function 
 *
