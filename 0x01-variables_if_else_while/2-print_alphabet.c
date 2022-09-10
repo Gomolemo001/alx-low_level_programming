@@ -5,7 +5,6 @@
  * Return: 0
  */
 int main(void)
-
 {
 	char lower_case;
 	char upper_case;
@@ -24,5 +23,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
