@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_alphabets - function to print abc
  *
@@ -13,4 +14,6 @@ void print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar('\n');
+
+	return (0);
 }
