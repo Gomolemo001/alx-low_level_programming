@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_most_numbers - prints numbers except 2 and 4
@@ -19,5 +18,5 @@ void print_most_numbers(void)
 		}
 		putchar(n);
 	}
-	_putchar(10);
+	_putchar('\n');
 }
