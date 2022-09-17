@@ -5,6 +5,7 @@
 /**
  * main - Entry point
  *
+ * this program prints "Programming is positive, zero or negative
  * Return: 0
  */
 int main(void)
@@ -15,16 +16,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = n % 10;
+	l = n % 10
 
 		if (l > 5)
 		{
 			printf("Last digit of %i is %i and is greater than 5\n", n, l);
 		}
-
 			else if (l == 0)
 			{
-				printf("Last digit of %i is %di and is 0\n", n, n % 10);
+				printf("Last digit of %d is %d and is 0\n", n, l);
 			}
 
 		else
@@ -34,4 +34,5 @@ int main(void)
 
 		return (0);
 }
+
 
