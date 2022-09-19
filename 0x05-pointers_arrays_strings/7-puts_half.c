@@ -6,7 +6,6 @@
  * @str: input
  * Return: half the input
  */
-
 void puts_half(char *str)
 {
 	int a = 0;
