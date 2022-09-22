@@ -2,10 +2,10 @@
 
 /**
  * strcat - Concatenates the string printed to by @src,
- * the terminat null byte included, to the end 
+ * the terminat null byte included, to the end
  * of the string pointed to by @dest
- * @dest: A pointer th the string to be concatenated upon
- * @src: The sorce string to be appended  to @dest
+ * @dest: A pointer to the string to be concatenated upon
+ * @src: The source string to be appended  to @dest
  *
  * Return: A pointer to the destination string @dest
  */
