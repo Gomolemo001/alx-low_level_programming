@@ -18,7 +18,8 @@ void print_buffer(char *b, int size)
 
 		for (index = 0; index < 10; index++)
 		{
-			if (9index + byte) >= size)
+
+			if ((index + byte) >= size)
 				printf(" ");
 
 			else
