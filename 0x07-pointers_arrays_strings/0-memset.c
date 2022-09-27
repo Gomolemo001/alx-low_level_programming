@@ -16,8 +16,8 @@ void *_memset(void *s, int c, size_t n)
 	unsigned int a;
 	unsigned char *memory = s, value = c;
 
-	for (a = 0; a < n; a++)
-		s[a] = c;
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-	return (s);
+	return (memory);
 }
