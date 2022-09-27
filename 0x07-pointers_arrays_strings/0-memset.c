@@ -11,7 +11,7 @@
  * Return: A pointer to the filled memory area @s.
  *
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
 
