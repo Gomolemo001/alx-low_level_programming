@@ -9,9 +9,7 @@
  * description _memset: over there
  *
  * Return: A pointer to the filled memory area @s.
- *
  */
-char *_memset(char *s, char b, unsigned int n)
 {
 	while (n)
 	{
@@ -20,4 +18,3 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
-	
