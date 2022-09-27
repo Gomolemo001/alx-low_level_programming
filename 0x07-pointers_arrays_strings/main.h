@@ -3,7 +3,8 @@
 
 /**
  * File: main.h
- * Description: Header file containing prototypes 
+ * Description: Header file containing prototypes for all
+ *		functions used in the 0x06-pointers_arrays_strings directory
  */
 
 #include <stddef.h>
