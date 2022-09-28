@@ -32,10 +32,10 @@ int checkp(int i, int lg, char *s)
 		}
 		else
 		{
-			return (i);
+			return (1);
 		}
 	}
-	return (i);
+	return (1);
 }
 
 /**
