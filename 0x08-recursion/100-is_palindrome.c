@@ -16,7 +16,7 @@ int _length(char *s)
  * @i: is the index
  * @lg: is the length of the string
  * @s: is the string
- * Return: 1 if the palindrome or 0 if not
+ * Return: 1 if is palindrome or 0 if not
  */
 int checkp(int i, int lg, char *s)
 {
@@ -35,6 +35,7 @@ int checkp(int i, int lg, char *s)
 			return (i);
 		}
 	}
+	return (i);
 }
 
 /**
