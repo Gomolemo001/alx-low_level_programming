@@ -47,3 +47,4 @@ int is_palindrome(char *s)
 {
 	return (checkp(0, _length(s) - 1, s));
 }
+
