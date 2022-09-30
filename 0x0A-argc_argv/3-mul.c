@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-* main -Prints the multiplication of two integers
-* @argc:count argument
-* @argv:Argument
+* main - Prints the multiplication of two integers
+* @argc: Argument count
+* @argv: Argument vector
 * Return:0 if true, 1 if false
 */
 int main(int argc, char *argv[])
@@ -16,12 +16,10 @@ int main(int argc, char *argv[])
 	{
 		a = atoi(argv[1]);
 		b = atoi(argv[2]);
-		printf(" % d\n", a * b);
+		printf("%d\n", a * b);
 
 		return (0);
 	}
-
-	else
 
 	printf("Error\n");
 	return (1);
