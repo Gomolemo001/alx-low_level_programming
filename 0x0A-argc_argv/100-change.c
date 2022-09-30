@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int position, total, chamge, aux;
+	int position, total, change, aux;
 	int coins[] = {25, 10, 5, 2, 1}; /*Array integer*/
 
 	position = total = change = aux = 0;
