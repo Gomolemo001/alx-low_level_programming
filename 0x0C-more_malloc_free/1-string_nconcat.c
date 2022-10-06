@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -30,13 +31,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	num = n;
 
-	if (s1 == NULL) /* Acount for NULL strings */
+	if (s1 == NULL) /* Account for NULL strings */
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 	if (num < 0) /* account for negative n bytes */
 		return (NULL);
-	if (num >= _strlen(s2)) /* accout for n too big */
+	if (num >= _strlen(s2)) /* account for n too big */
 		num = _strlen(s2);
 
 	len = _strlen(s1) + num + 1; /* +1 to account for null pointer */
