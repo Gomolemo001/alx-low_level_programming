@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_endianeness - Checks the endianness.
+ * get_endianness - Checks the endianness.
  *
  * Return: If big_endian - 0.
  *	If little_endian - 1.
